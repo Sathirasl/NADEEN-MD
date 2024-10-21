@@ -39,10 +39,10 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 
 let madeMenu = ` *👋 Hello ${pushname}*
 
-✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗡𝗔𝗗𝗘𝗘𝗡-𝗠𝗗! ✨ 
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 SATHIRA-𝗠𝗗! ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ [ʜᴏʀɪᴢᴏɴ ᴍᴀᴛʀɪx]
+│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ :SATHIRA LASANJANA [ʜᴏʀɪᴢᴏɴ ᴍᴀᴛʀɪx]
 │◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94711451319
 │◈ ᴘʟᴀᴛꜰᴏʀᴍ : ${os.hostname()}
 │◈ ᴠᴇʀꜱɪᴏɴ : 1.0.4
@@ -102,7 +102,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
   ───────
  ${menu.tools}
 ╰───────────●●►
-*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻*
+*👨‍💻SATHIRA-ᴍᴅ ᴍᴀᴅᴇ ʙʏ SATHIRA 👨‍💻*
 `
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
